@@ -22,7 +22,7 @@
 #include <linux/msm_thermal.h>
 #include <mach/cpufreq.h>
 
-#define DEFAULT_TEMP_MAX	85
+#define DEFAULT_TEMP_MAX	75
 
 static unsigned int polling = HZ*2;
 static unsigned int cpu = 0;
