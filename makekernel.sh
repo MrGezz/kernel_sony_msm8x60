@@ -18,7 +18,7 @@ export LOCALVERSION="~"`echo $AK_VER`
 export CROSS_COMPILE=~/github/gcc/arm-cortex_a8-linux-gnueabi-linaro_4.7.4-2014.04/bin/arm-cortex_a8-linux-gnueabi-
 export ARCH=arm
 export SUBARCH=arm
-export KBUILD_BUILD_USER=deedwar
+export KBUILD_BUILD_USER=MrGezz
 export KBUILD_BUILD_HOST="kernel"
 
 DATE_START=$(date +"%s")
@@ -63,7 +63,7 @@ echo "Making: Pure Defconfig"
 echo "-------------------------"
 echo -e "${restore}"
 
-make "fuji_hikari_defconfig"
+make "fuji_aoba_defconfig"
 make -j8
 
 echo -e "${green}"
